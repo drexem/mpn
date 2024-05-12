@@ -1,0 +1,26 @@
+# MPN -  Ondřej Klempíř: Jak starý je Váš mozek? [2023/2024, LS]
+
+## Napište stručné shrnutí obsahu přednášky (cca 5 vět).
+
+Prednáška bola zameraná z môjho pohľadu prevažne na štatistiku a strojové učenie.
+Bolo nám ukázané, ako z nameraných dát (prevažne UK Biobank) vieme vyextrahovať zaujímavé 
+parametre. Tieto dáta sú generované väčšinou vo formátoch DICOM alebo NIFTI (niekedy je potrebné
+transformovať dáta z DICOM do NIFTI pre niektoré modely). Následne sme schopní vytvoriť korelačnú maticu
+použiť jednoduché štatistické nástroje ako lineárna regresia pre odhad veku na základe veku mozgu
+alebo takto pripravené vektory z parametrov poskytnúť pre modely storjového učenia a v niektorých 
+prípadoch získať presnejšie výsledky (vyšši korelačný koeficient). Na záver nám bola ukázaná
+praktická ukážka ako celý tento proces vykonať (na simulovaných dátach s podobnými vlastnosťami).
+
+
+## Popište stručně vlastními slovy jaký matematický problém se v přednášce objevil.
+
+Ako na základe dát štruktúry mozgu predpovedať vek mozgu za pomoci štatistiky a 
+metód strojového učenia.
+
+## Napište 2 konkrétní poznatky, které jste si odnesli z přednášky (co vás zaujalo).
+
+Páčilo sa mi predstavenie postupu extrakcie parametrov z MRI skenov.
+Taktiež veľmi pekná bola praktická časť na záver, s možnosťou vlastného
+vyskúšania na doma. Pre milovníkov dátových formátov bola zaujímavá možnosť
+oboznámiť sa s formátmi, ktré sa využívajú pre ukladanie 3D dát z medicínskych
+prístrojov.
